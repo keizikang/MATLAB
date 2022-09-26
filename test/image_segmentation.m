@@ -1,3 +1,6 @@
+% 설명: 이미지를 픽셀 수준에서 랜덤하게 절반으로 나누는 코드
+% 예시 이미지는 image_segmentation.png를 확인
+
 clear; 
 clc;
 
