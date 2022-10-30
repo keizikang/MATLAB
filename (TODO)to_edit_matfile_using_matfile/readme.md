@@ -9,7 +9,7 @@
 
 ---
 
-#### 1. [데이터 준비](https://github.com/meticulousdev/MATLAB/edit/main/(TODO)to_edit_matfile_using_matfile/readme.md#1-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%A4%80%EB%B9%84-1)
+#### 1. [데이터 준비](#1-데이터-준비-1)
 #### 2. [MatFile 객체 만들기](https://github.com/meticulousdev/MATLAB/edit/main/(TBD)to_edit_matfile_using_matfile/readme.md#2-matfile-%EA%B0%9D%EC%B2%B4-%EB%A7%8C%EB%93%A4%EA%B8%B0-1)
 #### 3. [mat 파일에서 변수 가져오기](https://github.com/meticulousdev/MATLAB/edit/main/(TBD)to_edit_matfile_using_matfile/readme.md#3-mat-%ED%8C%8C%EC%9D%BC%EC%97%90%EC%84%9C-%EB%B3%80%EC%88%98-%EA%B0%80%EC%A0%B8%EC%98%A4%EA%B8%B0-1)
 #### 4. [mat 파일에 변수 추가하기](https://github.com/meticulousdev/MATLAB/edit/main/(TBD)to_edit_matfile_using_matfile/readme.md#4-mat-%ED%8C%8C%EC%9D%BC%EC%97%90-%EB%B3%80%EC%88%98-%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0-1)
