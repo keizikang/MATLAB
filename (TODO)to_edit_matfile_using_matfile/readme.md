@@ -10,13 +10,13 @@
 ---
 
 #### 1. [데이터 준비](#1-데이터-준비-1)
-#### 2. [MatFile 객체 만들기](https://github.com/meticulousdev/MATLAB/edit/main/(TBD)to_edit_matfile_using_matfile/readme.md#2-matfile-%EA%B0%9D%EC%B2%B4-%EB%A7%8C%EB%93%A4%EA%B8%B0-1)
-#### 3. [mat 파일에서 변수 가져오기](https://github.com/meticulousdev/MATLAB/edit/main/(TBD)to_edit_matfile_using_matfile/readme.md#3-mat-%ED%8C%8C%EC%9D%BC%EC%97%90%EC%84%9C-%EB%B3%80%EC%88%98-%EA%B0%80%EC%A0%B8%EC%98%A4%EA%B8%B0-1)
-#### 4. [mat 파일에 변수 추가하기](https://github.com/meticulousdev/MATLAB/edit/main/(TBD)to_edit_matfile_using_matfile/readme.md#4-mat-%ED%8C%8C%EC%9D%BC%EC%97%90-%EB%B3%80%EC%88%98-%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0-1)
-#### 5. [mat 파일 내 행렬의 일부만 가져오거나 변경하기](https://github.com/meticulousdev/MATLAB/edit/main/(TBD)to_edit_matfile_using_matfile/readme.md#5-mat-%ED%8C%8C%EC%9D%BC-%EB%82%B4-%ED%96%89%EB%A0%AC%EC%9D%98-%EC%9D%BC%EB%B6%80%EB%A7%8C-%EA%B0%80%EC%A0%B8%EC%98%A4%EA%B1%B0%EB%82%98-%EB%B3%80%EA%B2%BD%ED%95%98%EA%B8%B0-1)
-#### 6. [MatFile을 입력으로 받는 함수들](https://github.com/meticulousdev/MATLAB/edit/main/(TBD)to_edit_matfile_using_matfile/readme.md#6-matfile%EC%9D%84-%EC%9E%85%EB%A0%A5%EC%9C%BC%EB%A1%9C-%EB%B0%9B%EB%8A%94-%ED%95%A8%EC%88%98%EB%93%A4-1)
-#### 7. [mat 파일에서 변수 삭제하기 + 변수명 변경하기](https://github.com/meticulousdev/MATLAB/edit/main/(TBD)to_edit_matfile_using_matfile/readme.md#7-mat-%ED%8C%8C%EC%9D%BC%EC%97%90%EC%84%9C-%EB%B3%80%EC%88%98-%EC%82%AD%EC%A0%9C%ED%95%98%EA%B8%B0--%EB%B3%80%EC%88%98%EB%AA%85-%EB%B3%80%EA%B2%BD%ED%95%98%EA%B8%B0-1)
-#### 8. [팁](https://github.com/meticulousdev/MATLAB/edit/main/(TBD)to_edit_matfile_using_matfile/readme.md#8-%ED%8C%81-1)
+#### 2. [MatFile 객체 만들기](#2-matfile-객체-만들기-1)
+#### 3. [mat 파일에서 변수 가져오기](#3-mat-파일에서-변수-가져오기-1)
+#### 4. [mat 파일에 변수 추가하기](#4-mat-파일에-변수-추가하기-1)
+#### 5. [mat 파일 내 행렬의 일부만 가져오거나 변경하기](#5-mat-파일-내-행렬의-일부만-가져오거나-변경하기-1)
+#### 6. [MatFile을 입력으로 받는 함수들](#6-MatFile을-입력으로-받는-함수들-1)
+#### 7. [mat 파일에서 변수 삭제하기 + 변수명 변경하기](#7-mat-파일에서-변수-삭제하기-+-변수명-변경하기-1)
+#### 8. [팁](#8-팁-1)
 
 ---
 
