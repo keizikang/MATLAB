@@ -197,7 +197,7 @@ toc % 3.5초
 * mat 파일 내 변수 삭제는 매트랩 코드만으로는 불가능합니다.
 * .c 파일을 만들어서 MEX를 사용하는 방법은 가능합니다.
 * 자세한 내용은 [요기](https://tinyurl.com/26356fdm)를 확인해주세요.
-* 폴더에도 [파일](https://github.com/meticulousdev/MATLAB/blob/main/to_edit_matfile_using_matfile/rmvarMatFileMEX.c)을 올려두었습니다.
+* 폴더에도 [파일](https://github.com/meticulousdev/MATLAB/blob/main/to_edit_matfile_using_matfile/rmvarMatFileMEX.c)을 올려두었습니다. 사용법도 코드에 간단히 적혀 있습니다. 그대로 따라하면 됩니다. 어렵지 않아요.
 * 이 방법이 맘에 들지 않고, 그냥 파일 크기만 줄이고 싶은 거라면 삭제하고 싶은 변수에 빈 행렬을 덮어쓰는 방법도 가능합니다.
 * mat 파일 내 변수명 변경 역시 매트랩 코드만으로는 불가능합니다.
 * 변수 삭제를 응용하면 가능합니다.
