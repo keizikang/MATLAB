@@ -231,4 +231,4 @@ siz = size(m.D); % 이렇게 쓰지 말고
 siz = size(m, 'D'); % 이렇게 쓰세요
 ```
 
-[처음으로](https://github.com/meticulousdev/MATLAB/edit/main/(TBD)to_edit_matfile_using_matfile/readme.md#mat-%ED%8C%8C%EC%9D%BC%EC%9D%98-%EB%82%B4%EC%9A%A9-%EC%88%98%EC%A0%95%ED%95%98%EA%B8%B0)
+[처음으로](#mat-파일의-내용-수정하기)
