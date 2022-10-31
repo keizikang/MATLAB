@@ -6,6 +6,7 @@
   *   https://www.mathworks.com/help/matlab/ref/matlab.io.matfile.html
   *   https://www.mathworks.com/help/matlab/import_export/load-parts-of-variables-from-mat-files.html
   *   https://www.mathworks.com/matlabcentral/answers/254048-how-can-i-delete-variables-in-my-mat-file-without-loading-them-into-matlab-7-2-r2006a
+* 작성자: [게으른](https://github.com/keizikang)
 * 도움 주신 분: [Chopthal](https://chopthal.github.io/)
 
 ---
