@@ -12,22 +12,25 @@
 
 ### 1. 테스트용 그래프 그리기
 
-* 적당히 겹쳐있는 fplot 3개를 그립니다.
+* 적당히 겹쳐있는 Line, FunctionLine, ConstantLine을 그려봅니다.
 
 ```matlab
 figure, hold on,
-fplot(@(x) 1*x, [-1, 1], 'r', linewidth=3)
-fplot(@(x) 2*x, [-1, 1], 'g', linewidth=3)
-fplot(@(x) 3*x, [-1, 1], 'b', linewidth=3)
+plot(linspace(-1, 1), linspace(-1, 1), 'r', linewidth=3)
+fplot(@(x) exp(-x)-1, [-1, 1], 'g', linewidth=3)
+yline(.5, 'b', linewidth=3, Alpha=1)
 
 set(gca, XAxisLocation='origin', YAxisLocation='origin')
 ```
 
 ![](./prepared_figure.png)
 
-* 그래프를 그린 순서대로 올라갑니다.
-* 가장 먼저 그린 빨간색이 맨 아래에, 그 위에 fplot의 순서대로 녹색, 파란색 선이 올라갑니다.
+* Axes에는 그래프를 그린 순서대로 올라갑니다.
+  * 가장 먼저 그린 빨간 Line이 가장 아래에 있습니다.
+  * 그 다음 그린 녹색 FunctionLine이 그 위에 올라갑니다.
+  * 마지막에 그린 파란 ConstantLine이 가장 위에 올라갑니다.
 * gca의 Children 목록에도 이 순서대로 들어갑니다.
+* 즉 Children의 마지막(맨 아래) 항목이 가장 먼저 그린 빨간색 FunctionLine입니다.
 
 ```matlab
 >> children = get(gca, 'Children')
@@ -50,4 +53,6 @@ ans =
 ```
 
 * uistack()을 이용하면 이 라인들의 순서를 바꿀 수 있습니다.
-* 
+* uistack(H)는 H를 한 칸 위로 올립니다.
+
+
