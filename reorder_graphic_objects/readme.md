@@ -30,29 +30,30 @@ set(gca, XAxisLocation='origin', YAxisLocation='origin')
   * 그 다음 그린 녹색 FunctionLine이 그 위에 올라갑니다.
   * 마지막에 그린 파란 ConstantLine이 가장 위에 올라갑니다.
 * gca의 Children 목록에도 이 순서대로 들어갑니다.
-* 즉 Children의 마지막(맨 아래) 항목이 가장 먼저 그린 빨간색 FunctionLine입니다.
+  * 가장 먼저 그린 빨간 Line이 목록의 가장 아래에 있습니다.
+  * 그 다음 그린 녹색 FunctionLine이 밑에서 두 번째에 있습니다.
+  * 마지막에 그린 파란 ConstantLine이 가장 위에 있습니다.
 
 ```matlab
->> children = get(gca, 'Children')
-children = 
-  3×1 FunctionLine array:
+>> allchild(gca)
+ans = 
+  3×1 graphics array:
 
+  ConstantLine
   FunctionLine
-  FunctionLine
-  FunctionLine
->> children.Function
-ans =
-  function_handle with value:
-    @(x)3*x
-ans =
-  function_handle with value:
-    @(x)2*x
-ans =
-  function_handle with value:
-    @(x)x
+  Line
 ```
+
+* 그래픽 객체가 추가될 때마다 기존 목록 아래에 붙는 방식이 아닌, 하나씩 밀리면서 목록 상단에 추가되는 방식입니다.
+* Children 목록 상단에 있는 객체가 Axes 상에서도 가장 위에 올라가는 것으로 이해할 수 있습니다.
+
+---
+
+### 2. uistack 활용
 
 * uistack()을 이용하면 이 라인들의 순서를 바꿀 수 있습니다.
 * uistack(H)는 H를 한 칸 위로 올립니다.
+
+
 
 
