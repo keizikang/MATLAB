@@ -23,7 +23,7 @@ yline(.5, 'b', linewidth=3, Alpha=1)
 set(gca, XAxisLocation='origin', YAxisLocation='origin')
 ```
 
-![](./prepared_figure.png)
+![111](./prepared_figure.png)
 
 * Axes에는 그래프를 그린 순서대로 올라갑니다.
   * 가장 먼저 그린 빨간 Line이 가장 아래에 있습니다.
@@ -54,6 +54,17 @@ ans =
 * uistack()을 이용하면 이 라인들의 순서를 바꿀 수 있습니다.
 * uistack(H)는 H를 한 칸 위로 올립니다.
 
+
+```matlab
+>> uistack(children(3))
+>> allchild(gca)
+ans = 
+  3×1 graphics array:
+
+  ConstantLine
+  Line
+  FunctionLine
+```
 
 
 
