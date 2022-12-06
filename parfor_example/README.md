@@ -1,0 +1,1 @@
+참고자료: [중첩 parfor 루프와 중첩 for 루프 및 기타 parfor 요구 사항](https://kr.mathworks.com/help/parallel-computing/nested-parfor-loops-and-for-loops.html), [parfor 루프에서 변수 문제 해결하기(https://kr.mathworks.com/help/parallel-computing/troubleshoot-variables-in-parfor-loops.html#bvjfik_)]
