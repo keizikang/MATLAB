@@ -35,7 +35,7 @@ titles = cellfun(@(s) s.title, list, 'UniformOutput', false); % 제목만 추출
   * MaxResults: 출력 개수, 100이 최대
   * Sort: 정렬순서 (Accuracy(관련도)/PublishTime(출간일)/SalesPoint(판매량)/CustomerRating(고객평점) 등)
   * CategoryId: 도서분류 ([알라딘 도서분류표 엑셀](https://image.aladin.co.kr/img/files/aladin_Category_CID_20210927.xls))
-    * 분류를 넣으면 노이즈를 줄일 수 있는 반면, 책마다 분류가 달라서 놏이는 경우도 생길 수 있음
+    * 분류를 넣으면 노이즈를 줄일 수 있는 반면, 책마다 분류가 달라서 놓치는 경우도 생길 수 있음
   * output: 출력방법 (js/xml, js를 권장)
   * Version: API 버전 (20131101을 쓸 것)
   * outofStockfilter: 품절/절판 등 재고 없는 제품을 제외할 것인지? "1"이면 제외함
@@ -107,4 +107,3 @@ ans =
   * [알라딘 OpenAPI 안내](https://www.aladin.co.kr/ttb/apiguide.aspx?Version=20131101)
   * [알라딘 OpenAPI](https://blog.aladin.co.kr/openapi/6695306)
   * [API 사용 예제](https://blog.aladin.co.kr/openapi/5353301) - python 코드도 있으나 deprecated로 보임
-  * [상품 API 안내](https://blog.aladin.co.kr/openapi/category/29154402?communitytype=mypaper)
