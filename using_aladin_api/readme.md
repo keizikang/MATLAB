@@ -97,6 +97,35 @@ ans =
                subInfo: [1×1 struct]
 ```
 
+* cellfun을 이용하면 도서들의 제목만 뽑아낼 수 있습니다.
+
+```matlab
+>> titles = cellfun(@(c) c.title, list, 'UniformOutput', false)
+titles =
+  20×1 cell array
+    {'제대로 배우는 MATLAB & Simulink'                                            }
+    {'매트랩의 정석 - 5판'                                                        }
+    {'MATLAB으로 배우는 공학 수치해석 - 개정판'                                      }
+    {'공학도를 위한 매트랩 - 문제해결 학습중심의, 5판'                                 }
+    {'쉽게 배우는 MATLAB 입문과 활용 - 5판'                                         }
+    {'MATLAB으로 배우는 공학수학 - Engineering Mathematics, 개정판'                 }
+    {'매트랩 프로그래밍 - 개정판'                                                   }
+    {'공학도를 위한 매트랩 - 4판'                                                  }
+    {'MATLAB을 이용한 알기 쉬운 수치해석'                                           }
+    {'공학도를 위한 MATLAB 프로그래밍 - 제5판'                                      }
+    {'이공학도를 위한 수치해석 - Matlab 활용, Third Edition'                        }
+    {'디지털 영상처리 - MATLAB으로 배우는'                                          }
+    {'알기 쉽게 배우는 MATLAB'                                                    }
+    {'MATLAB 활용 수치해석'                                                       }
+    {'MATLAB을 이용한 실용영상처리'                                                }
+    {'25시간만에 배우는 머신러닝 - 예제 MATLAB활용, 2판'                              }
+    {'MATLAB을 이용한 GUI 생성과 활용'                                             }
+    {'MATLAB 프로그래밍 (Marc E.Herniter)'                                       }
+    {'알기쉬운 수치해석 - Free S/W GNU Octave(MATLAB 호환) MS Excel 활용'           }
+    {'매트랩 영상처리 프로그래밍 - 기본 영상처리부터 예술 과학, 비디오 처리, 시공간 처리까지'}
+```
+
+
 * 그 외에도 분야별 신간, 베스트셀러 등을 볼 수 있는 상품 리스트 API, 상품 하나만 조회하는 상품 조회 API, 중고상품 보유 매장 검색 API 등이 있습니다.
 * 사용법은 위와 거의 같습니다.
 * 자세한 내용은 [알라딘 Open API 매뉴얼](https://docs.google.com/document/d/1mX-WxuoGs8Hy-QalhHcvuV17n50uGI2Sg_GHofgiePE/edit)에서 확인할 수 있습니다.
