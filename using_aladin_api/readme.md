@@ -17,9 +17,10 @@ data = webread(url, ...
     CategoryId = 2735, ... % 분야: 국내도서 > 컴퓨터/모바일 > 컴퓨터 공학 > 전산수학(SPSS/MATLAB)
     outofStockfilter = 1, ... % 품절/절판 제외
     output = "js", ... % 출력형식: json
-    Version = "20131101"); % API 버전
+    Version = 20131101); % API 버전
 
-list = data.item; % 실제 도서 목록
+list = data.item; % 도서 목록
+titles = cellfun(@(s) s.title, list, 'UniformOutput', false); % 제목만 추출
 ```
 
 * 요청 url은 기본 url 뒤에 파라미터를 key=value의 형태로 추가하는 형태입니다.
