@@ -1,6 +1,6 @@
 # 매트랩의 역사
 
-## 1965년, Cleve Moler가 박사학위를 받음
+## 1965년, [Cleve Moler](https://en.wikipedia.org/wiki/Cleve_Moler)가 박사학위를 받음
 
 * 논문 제목은 [Finite Difference Methods for the Eigenvalues of Laplace’s Operator](https://books.google.co.kr/books/about/Finite_Difference_Methods_for_the_Eigenv.html?id=0b4-AAAAIAAJ&redir_esc=y)
 * 이 논문에서 다룬 L-shaped membrane이 현재 매스웍스 로고임
@@ -18,12 +18,12 @@
 
 * [JK Wilkinson](https://en.wikipedia.org/wiki/James_H._Wilkinson)이 행렬연산과 고유값 문제 풀이를 위해 Algol 60으로 작성한 알고리즘 논문을 출간함
 * 나중에 [책](https://link.springer.com/book/10.1007/978-3-642-86940-2)으로도 나옴
-* 이 연구들이 나중에 매트랩 개발의 근간이 됨
+* 이 연구들이 훗날 매트랩 개발의 근간이 됨
 
 ## 1970년, EISPACK 시작
 
 * Argonne National Laboratory(ANL)의 연구원들이 미국 국립과학재단(NSF)에 수학 소프트웨어의 생산, 시험 및 보급을 위한 방법론, 비용 및 리소스 탐색을 제안함
-* 그렇게 만들어진게 EISPACK(matrix EIgenSystem PACKage)
+* 그렇게 만들어진 것이 EISPACK(matrix EIgenSystem PACKage)
 * 고유값 문제를 푸는 Algol 코드를 포트란으로 번역한 것이었음
 
 ## 1971년, EISPACK 발표
@@ -40,9 +40,10 @@
 ## 1979년, 첫 번째 MATLAB
 
 * Cleve Moler는 뉴멕시코 대학에서 선형대수와 수치해석을 가르치고 있었음
-* 학생들이 포트란 코드를 쓰지 않고 LINPACK과 EISPACK을 쓰면 좋겠다고 생각함
+* 학생들이 포트란 코드 작성 없이 LINPACK과 EISPACK을 사용하면 좋겠다고 생각함
 * 그래서 Niklaus Wirth의 [Algorithms + Data Structures = Program](https://en.wikipedia.org/wiki/Algorithms_%2B_Data_Structures_%3D_Programs)이라는 책을 읽고 프로그래밍 언어를 만드는 방법을 배웠음
-* MATLAB은 그저 학생들 편하라고 시작한 토이 프로젝트였며, 인터랙이브한 행렬 계산기에 불과했음
+* 이렇게 만들어진 것이 MATLAB
+* MATLAB은 그저 학생들 편하라고 시작한 토이 프로젝트였며, 인터랙티브한 행렬 계산기에 불과했음
 * 포트란으로 만들었고 자료형은 행렬밖에 없었음
 * 당연히 공식적인 외부 지원도 없었고 사업계획도 없었음
 
@@ -57,18 +58,18 @@
 
 ## 1980년, Jack Little과의 만남
 
-* 스탠포드 대학원생이었던 Jack Little이 친구를 통해 매트랩을 보게 되고 개인 프로젝트에 적용함
+* 스탠포드 대학원생이었던 [Jack Little](https://en.wikipedia.org/wiki/John_N._Little)이 친구를 통해 매트랩을 보게 되고 개인 프로젝트에 적용함
 
 ## 1983년, MATLAB 상용화의 시작
 
-* Jack Little이 매트랩의 상용화를 제안함
+* Jack Little이 Cleve Moler에게 매트랩 상용화를 제안함
 * 갓 나온 IBM PC는 매트랩이 겨우 돌아갈 수준이었지만, Little은 앞으로 컴퓨터가 더 발전할 거라고 예상함
 * Little은 직장까지 그만두고 컴팩 PC를 사서 C로 매트랩을 만들어냈음
 
 ## 1984년, PC-MATLAB 발표
 
 * Mathworks가 설립됨
-* PC-MATLAB이 IEEE Conference on Decision and Control에서 데뷔를 했고 Unix 버전인 Pro-MATLAB이 1985년에 발표됨
+* PC-MATLAB이 IEEE Conference on Decision and Control에서 데뷔를 했고 Unix 버전인 Pro-MATLAB도 1985년에 발표됨
 ![](https://www.mathworks.com/company/newsletters/articles/a-brief-history-of-matlab/_jcr_content/mainParsys/image_0_copy_copy.adapt.full.medium.jpg/1669738719921.jpg)
 * 1980년대 말까지 수백 카피가 대학에 팔림
 
