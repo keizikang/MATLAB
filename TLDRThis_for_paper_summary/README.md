@@ -5,52 +5,7 @@
 * 타겟으로 한 [논문](https://arxiv.org/pdf/2210.02587.pdf)은 arXiv에 pdf가 올라와 있습니다.
 * 아래는 파이썬 코드입니다.
 
-
-```python
-rapidapi_key = "none"
-naver_client_id = "of"
-naver_client_secret = "your business"
-
-import requests
-from pprint import pprint
-
-url = "https://tldrthis.p.rapidapi.com/v1/model/abstractive/summarize-url/"
-
-payload = {
-    "url": "https://arxiv.org/pdf/2210.02587.pdf", # 주소
-    "min_length": 100, # 최소 길이
-    "max_length": 300, # 최대 길이
-    "is_detailed": False # True: 한 문장, False: 여러 문장
-}
-
-headers = {
-    "content-type": "application/json",
-    "X-RapidAPI-Key": rapidapi_key,
-    "X-RapidAPI-Host": "tldrthis.p.rapidapi.com"
-}
-
-response = requests.request("POST", url, json=payload, headers=headers)
-summary = response.json()['summary'][0].strip()
-pprint(summary)
-
-url = "https://openapi.naver.com/v1/papago/n2mt"
-
-payload = {
-    "source": "en",
-    "target": "ko",
-    "text": summary,
-}
-
-headers = {
-    "content-type": "application/json",
-    "X-Naver-Client-Id": naver_client_id,
-    "X-Naver-Client-Secret": naver_client_secret,
-}
-
-response = requests.request("POST", url, json=payload, headers=headers)
-
-pprint(response.json())
-```
+https://github.com/meticulousdev/MATLAB/blob/281ab388a53bd2ea3f2a422ec4c376277360aee2/TLDRThis_for_paper_summary/test_paper_summary.py#L1-L43
 
 * 매트랩으로도 가능한지 궁금해졌습니다.
 * [알라딘 API](https://github.com/meticulousdev/MATLAB/tree/main/using_aladin_api)에서 얻은 자신감으로 그 기세를 이어가려고 했습니다만,
@@ -66,27 +21,7 @@ pprint(response.json())
 * 하지만 문법에 맞지 않았습니다. 역시 귀엽습니다. 그래도 충분히 힌트는 되었습니다.
 * [여러](https://www.mathworks.com/help/matlab/ref/webwrite.html) [곳들을](https://www.mathworks.com/help/matlab/ref/weboptions.html) [참고하여](https://www.mathworks.com/matlabcentral/answers/486888-how-can-i-post-json-arguments-request-payload-using-matlab-s-webwrite) 코드를 수정했습니다.
 
-```matlab
-rapidapi_key = 'none of your business';
-
-url = "https://tldrthis.p.rapidapi.com/v1/model/abstractive/summarize-url/";
-
-payload = struct(...
-    "url", "https://arxiv.org/pdf/2210.02587.pdf", ... % 주소
-    "min_length", 100, ... % 최소 길이
-    "max_length", 300, ... % 최대 길이
-    "is_detailed", false ... % True: 한 문장, False: 여러 문장
-);
-
-options = weboptions(...
-    'Timeout', 30, ...
-    'MediaType', 'application/json', ...
-    'HeaderFields', {...
-    'content-type','application/json'; 
-    'X-RapidAPI-Key', rapidapi_key;
-    'X-RapidAPI-Host', 'tldrthis.p.rapidapi.com'});
-response = webwrite(url, jsonencode(payload), options);
-```
+https://github.com/meticulousdev/MATLAB/blob/281ab388a53bd2ea3f2a422ec4c376277360aee2/TLDRThis_for_paper_summary/test_paper_summary.m#L1-L19
 
 * 주의할 점이 있습니다. Timeout을 충분히 길게 잡아주어야 합니다.
 * Timeout 기본값은 5초인데, 논문 텍스트 분석이 5초 이상 걸리나 봅니다.
