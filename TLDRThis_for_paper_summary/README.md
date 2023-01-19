@@ -16,9 +16,8 @@ https://github.com/meticulousdev/MATLAB/blob/281ab388a53bd2ea3f2a422ec4c37627736
 
 ![](https://github.com/meticulousdev/MATLAB/blob/main/TLDRThis_for_paper_summary/chapGPT_py_to_mat.gif)
 
-* 심지어 POST를 날리고 싶으면 webwrite를 쓰라는 것, webwrite가 파이썬의 requests.request와 비슷하다는 것까지 알려줍니다.
-* 마지막에 갑자기 오류 내는 건 귀엽게 봐줍시다. (캡쳐를 했기에 다행이지...)
-* 하지만 문법에 맞지 않았습니다. 역시 귀엽습니다. 그래도 충분히 힌트는 되었습니다.
+* 심지어 POST를 날리고 싶으면 webwrite를 쓰라는 것, webwrite가 파이썬의 requests.request와 비슷하다는 것까지 알려줍니다. 조금 무섭습니다.
+* 하지만 문법에 맞지 않았습니다. 약간 귀여워졌습니다. 그래도 충분히 힌트는 되었습니다.
 * [여러](https://www.mathworks.com/help/matlab/ref/webwrite.html) [곳들을](https://www.mathworks.com/help/matlab/ref/weboptions.html) [참고하여](https://www.mathworks.com/matlabcentral/answers/486888-how-can-i-post-json-arguments-request-payload-using-matlab-s-webwrite) 코드를 수정했습니다.
 
 https://github.com/meticulousdev/MATLAB/blob/281ab388a53bd2ea3f2a422ec4c376277360aee2/TLDRThis_for_paper_summary/test_paper_summary.m#L1-L19
