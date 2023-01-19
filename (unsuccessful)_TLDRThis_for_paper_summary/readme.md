@@ -52,16 +52,12 @@ response = requests.request("POST", url, json=payload, headers=headers)
 pprint(response.json())
 ```
 
----
-
 * 매트랩으로도 가능한지 궁금해졌습니다.
 * [알라딘 API](https://github.com/meticulousdev/MATLAB/tree/main/using_aladin_api)에서 얻은 자신감으로 그 기세를 이어가려고 했습니다만,
 * 단순히 key=value의 형태로 이어붙이는 게 아니라는 걸 깨달았습니다.
 * 웹은 문외한이라 검색어조차 몰라서 허둥대고 있었는데...
 * 청포도님의 조언대로 chapGPT에게 물어봤습니다. "Convert the python code below to matlab code"
 * 에이 설마...라고 생각했는데 정말 바꿔주더군요.
-
-
 * 하지만 문법에 맞지 않았습니다. 그래도 충분히 힌트는 되었습니다.
 * [여러](https://www.mathworks.com/help/matlab/ref/webwrite.html) [곳들을](https://www.mathworks.com/help/matlab/ref/weboptions.html) [참고하여](https://www.mathworks.com/matlabcentral/answers/486888-how-can-i-post-json-arguments-request-payload-using-matlab-s-webwrite) 코드를 수정했습니다.
 
