@@ -1,5 +1,3 @@
-ccc
-
 %% generate table
 %
 % 테이블을 만드는 방법은 여러 가지가 있지만
