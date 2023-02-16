@@ -136,3 +136,4 @@ titles =
   * [알라딘 OpenAPI 안내](https://www.aladin.co.kr/ttb/apiguide.aspx?Version=20131101)
   * [알라딘 OpenAPI](https://blog.aladin.co.kr/openapi/6695306)
   * [API 사용 예제](https://blog.aladin.co.kr/openapi/5353301) - python 코드도 있으나 deprecated로 보임
+  * [파이썬 알라딘 API 예제 - hyunmoyan.log](https://velog.io/@hyunmoyan/20201111)
