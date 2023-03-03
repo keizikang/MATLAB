@@ -1,4 +1,6 @@
-ccc
+clear
+close all
+clc
 
 % 두 점 (a, b), (c, d)의 좌표
 a = 4;
