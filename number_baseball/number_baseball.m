@@ -1,4 +1,6 @@
-ccc
+clear
+close all
+clc
 
 num = input('세자리 숫자 입력(0으로 시작해도 ㄱㅊ): ', 's');
 
