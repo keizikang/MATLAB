@@ -4,4 +4,4 @@
 * 코드도 올려둡니다.
 
 
-[![](https://github.com/keizikang/MATLAB/blob/main/number_baseball/thumbnail.png)](https://www.youtube.com/watch?v=1udUt0SFy3g)
+[![](https://github.com/keizikang/MATLAB/blob/main/number_baseball/thumbnail.png?raw=true)](https://www.youtube.com/watch?v=1udUt0SFy3g)
