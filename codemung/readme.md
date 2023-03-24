@@ -2,6 +2,9 @@
 # 이젠 코드멍이다!
 ### 만든이: humming_stereo님
 
+![](https://github.com/keizikang/MATLAB/blob/main/codemung/codemung.gif?raw=true)
+
+
 ```matlab
 clc; clear; close all;
 
